@@ -26,7 +26,7 @@ class SignUpSuccessView extends StatelessWidget {
                   LinearPercentIndicator(
                     width: MediaQuery.of(context).size.width * 0.78,
                     lineHeight: 18.0,
-                    percent: 0.1667 * 2,
+                    percent: 1,
                     backgroundColor: Colors.grey,
                     progressColor: Color(0XFFF95419),
                   ),
@@ -40,7 +40,7 @@ class SignUpSuccessView extends StatelessWidget {
                 style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
               ),
               SizedBox(
-                height: 100,
+                height: 80,
               ),
               Text(
                 'Şimdi e-posta adresine gelen onay mailini onayla. Artık uygulamayı kullanmaya başlayabilirisin!',
@@ -51,6 +51,7 @@ class SignUpSuccessView extends StatelessWidget {
                 textAlign: TextAlign.center,
               ),
               Spacer(),
+              Image.asset("images/success-image.png"),
               GestureDetector(
                   child: Container(
                     width: MediaQuery.of(context).size.width,

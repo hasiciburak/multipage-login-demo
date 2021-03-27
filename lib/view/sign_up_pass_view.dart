@@ -28,7 +28,7 @@ class SignUpPassView extends StatelessWidget {
                   LinearPercentIndicator(
                     width: MediaQuery.of(context).size.width * 0.78,
                     lineHeight: 18.0,
-                    percent: 0.1667 * 2,
+                    percent: 0.1667 * 5,
                     backgroundColor: Colors.grey,
                     progressColor: Color(0XFFF95419),
                   ),
