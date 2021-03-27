@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:multi_page_form_app_examplet/view/sign_up_page.dart';
+import 'package:multi_page_form_app_examplet/view/sign_up_form_element.dart';
 
 void main() {
   runApp(MyApp());
@@ -27,7 +27,7 @@ class CenteredWidget extends StatelessWidget {
         child: Text('Merhaba'),
         onTap: () {
           Navigator.push(
-              context, MaterialPageRoute(builder: (context) => SignUpPage()));
+              context, MaterialPageRoute(builder: (context) => SignUpFormElement()));
         },
       ),
     );
